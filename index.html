@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="volumeBox">
+        <span id="volumeLevelDisplay">50%</span>
+        <input type="range" id="volume" min="0" max="100" step="2" value="50">
+    </div>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">Dó</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Ré</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Mi</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Fá</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">Sol</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">Lá</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">Si</span>
+        </div>
+        <audio data-key="65" src="sounds/Dó.MP3"></audio>
+        <audio data-key="83" src="sounds/Ré.MP3"></audio>
+        <audio data-key="68" src="sounds/Mi.MP3"></audio>
+        <audio data-key="70" src="sounds/Fá.MP3"></audio>
+        <audio data-key="71" src="sounds/Sol.MP3"></audio>
+        <audio data-key="72" src="sounds/Lá.MP3"></audio>
+        <audio data-key="74" src="sounds/Si.MP3"></audio>
+        
+    <script src="app.js"></script>
+</body>
+</html>
